@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  margin-left: 25%;
+  border: 5px solid black;
+  background-color: wheat;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, blue, yellow, green);
+
+}
+.container{
+  padding: 0 50px;
+}
+form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  border: 1px solid #000;
+  margin: 20px;
+  justify-items: center;
+  box-shadow: 0 7px 10px 5px;
+  color: gray;
+}
+form input, textarea{
+  margin: 10px;
+  width: 90%;
+  height: 30px;
+  padding: 5px 8px;
+}
+.btn{
+  width: 90%;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+}
+.card{
+  width: 200px;
+  height: 250px;
+  border: 1px solid grey;
+  margin: 10px;
+  box-shadow: 0 3px 5px 2px grey;
+  margin-left: 200px;
+}
+.mytask{
+  margin-left: 200px;
+}
