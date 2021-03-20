@@ -6,6 +6,7 @@ import AllTask from "./components/AllTask";
 
 function App() {
   const [show, setShow] = useState(false)
+  // eslint-disable-next-line
   const [task, setTask]= useState([
     {task: "Cooking", 
     time:"Morning" , 
@@ -26,6 +27,7 @@ function App() {
   const toggle= () => {
       setShow(!show)
   }
+  
   return (
     <main>
     <NavBar show={show} toggle={toggle}/>
